@@ -37,6 +37,7 @@ The module also provides forParam_ which does not return a result
 and instead passes the value on to a function (String -> IO)
 if the argument is present or calls a function (IO) if it isn't
 e.g.:
+
 main :: IO()
 main = do
     args <- getArgs
